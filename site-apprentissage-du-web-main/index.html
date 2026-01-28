@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les bases du web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+            <img src="img/IMG-0921.jpg" alt="Avatar" />
+            <ul>
+                <li><a href="#">À propos</a></li>
+                <li class="active"><a href="#">Bases du Web</a></li>
+                <li><a href="#">Plan d'apprentissage</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Les bases du web par Théo</h1>
+        <p class="subtitle">Une page pour concentrer les informations clés du Web et du développement !</p>
+    </header>
+
+    <section id="course">
+        <h2>Cours suivi</h2>
+        <a href="https://openclassrooms.com/fr/courses/1946386-comprendre-le-web" target="_blank">
+            <img src="img/cours.png" alt="Cours Comprendre le web" />
+        </a>
+    </section>
+
+    <section id="concepts">
+        <h2>Concepts clés</h2>
+        <div class="flex">
+            <article class="card">
+                <h3>Partie 1 - Découvrez le web et ses origines</h3>
+                <div class="dropdown">
+                    <h4>Web</h4>
+                    <p>Service utilisant internet, permettant aux utilisateurs de faire des recherches.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Internet</h4>
+                    <p>Réseau permettant aux pc de communiquer entre eux.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Cloud</h4>
+                    <p>Permet de stocker des données en ligne, sans être stockée localement. </p>
+                </div>
+                <div class="dropdown">
+                    <h4>W3C</h4>
+                    <p>World Wide Web Consortium, organisme international qui définit les standards du web. Créé en 1994 par Tim Berners-Lee.</p>
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 2 - Distinguez les langages du Web</h3>
+                <div class="dropdown">
+                    <h4>Langages client</h4>
+                    <p>Language lu et interprété par le pc du client (le notre), comme le HTML, le CSS ou le JavaScript. Décris comment le site web doit s'afficher.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Navigateurs</h4>
+                    <p>Logiciel qui permet d'accéder à des sites web, de les afficher et d'intéragir avec eux</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Langages serveur</h4>
+                    <p>Language lu et interprété par les serveurs, comme le PHP, le Java, le Pyhton,... Décris comment le site web doit se comporter. </p>
+                </div>
+                <div class="dropdown">
+                    <h4>Frameworks</h4>
+                    <p>"Boîte à outil" permettant aux développeurs de gagner du temps sur le code. Contient généralement du code préécrit, des modèles standardisés, ...</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Bases de données</h4>
+                    <p>Serveur de stockage servant à enregistrer  des informations, comme la liste des utilisateurs, les messages envoyés, ... </p>
+                </div>
+                <div class="dropdown">
+                    <h4>Site responsive</h4>
+                    <p>Site s'adaptant au format d'affichage de l'écran de l'utilisateur.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Application mobile</h4>
+                    <p>Logiciel conçu spécialement pour les téléphones et tablette. Permet d'effectuer des tâches similaires aux sites web.</p>
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 3 - Découvrez le fonctionnement du réseau</h3>
+                <div class="dropdown">
+                    <h4>Serveurs</h4>
+                    <p>Machines qui possèdent les sites web et les distribuent aux clients.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Adresse IP</h4>
+                    <p>Unique et lié à l'ordinateur du client, sert à identifier le pc.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Nom d'hôte et DNS</h4>
+                    <p>Le "nom" du site web, permet d'accéder aux sites facilement, sans avoir à connaître l'adresse IP de celui-ci.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Protocoles</h4>
+                    <p>Language utilisé par les machines (pc et serveurs), leurs permettant de communiquer entre elles.</p>
+                </div>
+            </article>
+            <article class="card">
+                <h3>Partie 4 - Identifiez les métiers du web</h3>
+                <div class="dropdown">
+                    <h4>Développeurs</h4>
+                    <p>Ceux qui créer les sites internet. Peut aussi bien être en front-end (partie visuel), qu'être en back-end (partie techique)</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Product Managers et chefs de projets</h4>
+                    <p>Ceux qui coordonnent la production et l'évolution du produit.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Designers</h4>
+                    <p>Ceux qui travaillent à rendre le site efficace et à rendre l'utilisation agrable. Peut être UX (user xp, partie technique) ou UI (user interface, partie visuel)</p>
+                </div>    
+                <div class="dropdown">
+                    <h4>Testeurs</h4>
+                    <p>Ceux qui test le produit final pour garantir la qualité.</p>
+                </div>
+                <div class="dropdown">
+                    <h4>Techniciens informatique</h4>
+                    <p>Ceux qui assurent le bon fonctionnement du parc informatique.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Langages de développement web</h2>
+        <div class="slider">
+            <div class="slider-content">
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/html.png" alt="HTML" />
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Squelette du site Web. Il définit la structure de  base du contenu, comme les titres, les paragraphes, les images, etc.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/css.png" alt="CSS" />
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Permet de définir la partie visuel du site web.</p> 
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/js.png" alt="JavaScript" />
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Front-End</p>
+                        <p>Permet d'ajouter des interactions.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/php.png" alt="PHP" />
+                        <h3>PHP</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Permet de créer des sites interactifs.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/java.png" alt="Java" />
+                        <h3>Java</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Principalement utilisé pour la création d'application professionel.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/python.png" alt="Python" />
+                        <h3>Python</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Très utilisé de par sa puissance et son accessibilité, apprécié pour sa syntace simple et sa grande communauté.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/c.png" alt="C#" />
+                        <h3>C#</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Back-End</p>
+                        <p>Développé par Microsoft, très utilisé pour la création d'application grand publique.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="language-title">
+                        <img src="img/sql.png" alt="SQL" />
+                        <h3>SQL</h3>
+                    </div>
+                    <div class="language-content">
+                        <p>Bases de données</p>
+                        <p>Sert à gérer et interroger les bases de données.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="slider-arrows">
+            <img src="img/left.png" alt="Gauche" id="left" />
+            <img src="img/right.png" alt="Droite" id="right" />
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2>Boîte à outils du développeur</h2>
+        <ul class="card">
+            <li><strong>IDE comme VS Code</strong> : Logiciel permettant d'écrir du code.</li>
+            <li><strong>Github</strong> : Plateforme en ligne permettant de stocker partager et gérer du code source.</li>
+            <li><strong>Librairies / bibliothèques</strong> : Plateforme en ligne regroupant du code préécrit, des modèles préfait afin de simplifier le travail du développeur.</li>
+            <li><strong>Frameworks</strong> : Boîte à outil qui facilite et structure le développement d'applications, comme Djago (python), Laravel (PHP) ou React (JS).</li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
