@@ -70,19 +70,81 @@ a {
     color: #0065FC;
 }
 
-button{
+.btn-header{
     color: #0065FC;
     text-decoration: none;
     border: none;
     margin: 20px;
 }
 
-button:hover{
+.btn-header:hover{
     border-top: 2px solid #0065FC;
     padding-top: 10px;
 }
 
+.rechercher-and-filtres{
+    padding-top: 50px;
+}
 
+.filtres{
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-filtres{
+    margin: 15px;
+    padding: 4px 19px 4px 19px;
+    border-radius: 25px;
+    border: 2px solid #D9D9D9;
+}
+
+.btn-filtres:hover{
+    transform: scale(1.2);
+    background-color: #bdd5f8;
+}
+
+.btn-rechercher{
+    background-color: #0065FC;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px 16px 15px 16px;
+    border-color: #0065FC;
+}
+
+.btn-rechercher:hover{
+    cursor: pointer;
+}
+
+.form-rechercher{
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.fa-location-dot{
+    color: black;
+}
+
+.fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
+    padding: 5px;
+}
+
+.info{
+    margin-top: 50px;
+}
+
+.p-info{
+    padding: 15px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {

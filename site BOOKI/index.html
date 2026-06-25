@@ -11,18 +11,40 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/58212f01cf.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="main-container">
         <header>            
             <div class="btn">
-                <button><a href="index.html">Activités</a></button>
-                <button><a href="index.html">Hébergements</a></button>
+                <button class="btn-header"><a href="index.html">Activités</a></button>
+                <button class="btn-header"><a href="index.html">Hébergements</a></button>
             </div>
             <div class="logo"><a href="index.html"><img src="./images/Logo/Booki.png" alt="logo Booki"></a></div>
-
         </header>
+    <div class="rechercher-and-filtres">
+        <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
+        <p>En plein centre-ville ou en pleine nature</p>
+        <section class="rechercher">
+            <form method="get" action="">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input class="form-rechercher" type="text" name="Rechercher" id="rechercher" placeholder="Votre destination">
+                <input class="btn-rechercher" type="submit" value="Rechercher">
+            </form>
+        </section>
+        <section class="filtres">
+            <h4>Filtres</h4>
+            <button class="btn-filtres"><i class="fa-solid fa-money-bill-wave"></i><a href="">Economique</a></button>
+            <button class="btn-filtres"><i class="fa-solid fa-person"></i><a href="">Familial</a></button>
+            <button class="btn-filtres"><i class="fa-solid fa-heart"></i><a href="">Romantique</a></button>
+            <button class="btn-filtres"><i class="fa-solid fa-fire"></i><a href="">Nos Pépites</a></button>
+        </section>
+        <section class="info">
+        <i class="fa-solid fa-info"></i><span class="p-info">Plus de 500 logements disponible dans cette ville</span>
+        </section>
+    </div>
+
         <main>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
