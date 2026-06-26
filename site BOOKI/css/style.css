@@ -164,6 +164,23 @@ input::placeholder{
     width: 65%;
 }
 
+.card-hebergements{
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+}
+
+.card-hebergements .card{
+    padding: 20px;
+}
+
+.card-hebergements img{
+    width: 100%;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
