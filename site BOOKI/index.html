@@ -13,15 +13,14 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/58212f01cf.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <div class="main-container">
         <header>            
-            <div class="btn">
-                <button class="btn-header"><a href="index.html">Activités</a></button>
-                <button class="btn-header"><a href="index.html">Hébergements</a></button>
-            </div>
             <div class="logo"><a href="index.html"><img src="./images/Logo/Booki.png" alt="logo Booki"></a></div>
+            <div class="btn">
+                <button class="btn-header"><a href="index.html">Hébergements</a></button>
+                <button class="btn-header"><a href="index.html">Activités</a></button>
+            </div>
         </header>
     <div class="rechercher-and-filtres">
         <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -30,15 +29,20 @@
             <form method="get" action="">
                     <i class="fa-solid fa-location-dot"></i>
                     <input class="form-rechercher" type="text" name="Rechercher" id="rechercher" placeholder="Votre destination">
-                <input class="btn-rechercher" type="submit" value="Rechercher">
+                <button class="btn-rechercher">
+                    <span class="text-btn">Rechercher</span>
+                    <i class="fa-solid fa-magnifying-glass icon-btn"></i>
+                </button>
             </form>
         </section>
         <section class="filtres">
             <h4>Filtres</h4>
+            <div class="filtres-container">
             <button class="btn-filtres"><i class="fa-solid fa-money-bill-wave"></i><a href="">Economique</a></button>
             <button class="btn-filtres"><i class="fa-solid fa-person"></i><a href="">Familial</a></button>
             <button class="btn-filtres"><i class="fa-solid fa-heart"></i><a href="">Romantique</a></button>
             <button class="btn-filtres"><i class="fa-solid fa-fire"></i><a href="">Nos Pépites</a></button>
+            </div>
         </section>
         <section class="info">
         <i class="fa-solid fa-info"></i><span class="p-info">Plus de 500 logements disponible dans cette ville</span>
