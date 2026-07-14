@@ -7,9 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/58212f01cf.js" crossorigin="anonymous"></script>
 </head>
@@ -18,14 +16,14 @@
         <header>            
             <div class="logo"><a href="index.html"><img src="./images/Logo/Booki.png" alt="logo Booki"></a></div>
             <nav class="btn">
-                <a class="btn-header" href="index.html">Hébergements</a>
-                <a class="btn-header" href="index.html">Activités</a>
+                <a class="btn-header" href="#hebergements">Hébergements</a>
+                <a class="btn-header" href="#activites">Activités</a>
             </nav>
         </header>
     <div class="rechercher-and-filtres">
-        <h2 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h2>
+        <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
-        <section class="rechercher">
+        <div class="rechercher">
             <i class="fa-solid fa-location-dot"></i>
             <form method="get" action="#">
                     <input class="form-rechercher" type="text" name="Rechercher" id="rechercher" placeholder="Votre destination">
@@ -34,8 +32,8 @@
                     <i class="fa-solid fa-magnifying-glass icon-btn"></i>
                 </button>
             </form>
-        </section>
-        <section class="filtres">
+        </div>
+        <div class="filtres">
             <p>Filtres</p>
             <div class="filtres-container">
             <button class="btn-filtres"><i class="fa-solid fa-money-bill-wave"></i>Economique</button>
@@ -43,14 +41,14 @@
             <button class="btn-filtres"><i class="fa-solid fa-heart"></i>Romantique</button>
             <button class="btn-filtres"><i class="fa-solid fa-fire"></i>Nos Pépites</button>
             </div>
-        </section>
-        <section class="info">
+        </div>
+        <div class="info">
         <i class="fa-solid fa-info"></i><span class="p-info">Plus de 500 logements disponible dans cette ville</span>
-        </section>
+        </div>
     </div>
         <main>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="card-hebergements">
                         <a href="#">
@@ -114,7 +112,6 @@
                                 <div class="card-content">
                                     <h3 class="card-title">Hôtel de la mer</h3>
                                     <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
-                                
                                 <div class="card-rating">
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -230,9 +227,9 @@
                 </section>
             </div>
         </main>
-        <div class="activites">
+        <div class="activites" id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
-                <section class="card-activites">
+                <div class="card-activites">
                 <a href="#">
                     <article class="card">
                         <img src="./images/Activités/reno-laithienne.jpg" alt="Image d'un port rempli de bateau">
@@ -257,7 +254,7 @@
                         <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                     </article>
                 </a>
-            </section>
+                </div>
             </div>
         <footer>
             <div class="footer-container">
