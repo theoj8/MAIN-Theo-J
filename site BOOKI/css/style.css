@@ -574,6 +574,10 @@ footer{
         object-fit: cover;
     }
 
+    .card-rating{
+        margin: 10px 5px;
+    }
+
     .footer-container{
         grid-template-columns: 1fr;
         gap: 30px;
