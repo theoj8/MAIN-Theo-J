@@ -60,6 +60,8 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+
 header{
     display: flex;
     justify-content: space-between;
@@ -89,6 +91,8 @@ header{
 .btn-header:hover{
     border-top-color: var(--main-color);
 }
+
+/****** Form rechercher et filtres ***********/
 
 .rechercher-and-filtres{
     padding-top: 50px;
@@ -177,6 +181,8 @@ input::placeholder{
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire{
     padding: 5px;
 }
+
+/****** Infos ***********/
 
 .info{
     display: flex;
