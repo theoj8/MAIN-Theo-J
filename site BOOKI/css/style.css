@@ -74,7 +74,7 @@ header{
 
 .btn{
     display: flex;
-    color: #0065FC;
+    color: var(--main-color);
     gap: 30px;
 }
 
@@ -82,14 +82,12 @@ header{
     display: flex;
     align-items: center;
     padding: 35px 20px 0px;
-    color: #0065FC;
-    text-decoration: none;
+    color: var(--main-color);
     border-top: 2px solid transparent;
-    background-color: white;
 }
 
 .btn-header:hover{
-    border-top-color: #0065FC;
+    border-top-color: var(--main-color);
 }
 
 .rechercher-and-filtres{
@@ -118,11 +116,12 @@ header{
 }
 
 .btn-filtres:hover{
-    background-color: #bdd5f8;
+    background-color: var(--filter-bg-color);
+    cursor: pointer;
 }
 
 .btn-rechercher{
-    background-color: #0065FC;
+    background-color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
     color: white;
@@ -142,7 +141,7 @@ header{
 }
 
 form{
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--main-bg-color);
     border-radius: 20px;
 }
 
@@ -170,7 +169,7 @@ input::placeholder{
     width: 50px;
     height: 57px;
     color: black;
-    background-color: #F2F2F2;
+    background-color: var(--main-bg-color);
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
@@ -196,9 +195,9 @@ input::placeholder{
     align-items: center;
     width: 24px;
     height: 24px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--main-bg-color);
     border-radius: 50%;
-    color: #0065FC;
+    color: var(--main-color);
     font-size: 12px;
 }
 
@@ -427,11 +426,7 @@ footer{
     .main-container{
         padding: 0 20px;
     }
-
-    h4{
-        margin: 0;
-    }
-
+    
     header{
         display: flex;
         flex-direction: column;
@@ -457,12 +452,12 @@ footer{
         width: 50%;
         justify-content: center;
         padding: 15px 0;
-        border-bottom: 3px solid #F2F2F2;
+        border-bottom: 3px solid var(--main-bg-color);
         border-top: none;
     }
 
     .btn-header:hover{
-        border-bottom-color: #0065FC;
+        border-bottom-color: var(--main-color);
     }
 
     .text-btn{
@@ -488,11 +483,14 @@ footer{
     .filtres{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
     }
 
     .filtres h2{
         margin-bottom: 15px;
+    }
+
+    .filtres p{
+        align-self: flex-start;
     }
 
     .filtres-container{
